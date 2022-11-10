@@ -5,7 +5,7 @@ def cel2far(c):
 
 
 st.title('Conversor grados')
-tc = st.slider('Temp Cel.', min_value=-50, max_value=50, value=0)
+tc = st.slider('Temp. Cel.', min_value=-50, max_value=50, value=0)
 
 if st.button('Convertir'):
     tf = cel2far(tc)
